@@ -20,9 +20,9 @@ public class Main {
 
     public static void main(String[] args) throws IllegalAccessException, InstantiationException {
         Map<String, String> params = new HashMap<>();
-        params.put("name","Petr");
-        params.put("age","55");
-        User user = MyGson.parse(params,User.class);
+        params.put("name", "Petr");
+        params.put("age", "55");
+        User user = MyGson.parse(params, User.class);
 
         System.out.println(user);
     }

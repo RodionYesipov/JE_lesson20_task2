@@ -14,7 +14,7 @@ public class User {
 
     @Override
     public String toString() {
-        Gson gson  = new GsonBuilder().setPrettyPrinting().create();
+        Gson gson = new GsonBuilder().setPrettyPrinting().create();
         return gson.toJson(User.this);
     }
 
